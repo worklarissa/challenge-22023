@@ -3,7 +3,7 @@ import Link from "next/link";
 const Home = () => {
     return(
         <>
-        <main>
+        <main className="main-home">
             <div className="secao1">
                 <section className="bem-vindo">
                     <article className="apresentacao">
@@ -20,9 +20,6 @@ const Home = () => {
                 <button className="botao-bem-vindo">
                     <p>Clique aqui  para experimentar gratuitamente!</p>
                 </button>
-
-                <Image src="/assets/fundoBemVindo.svg" alt="Background Bem vindo" width="100" height="313" className="background-bem-vindo"></Image>
-
             </div>
             <div>
                 <h2>Conheça nossos produtos!</h2>

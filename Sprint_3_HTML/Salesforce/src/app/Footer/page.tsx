@@ -5,9 +5,9 @@ const Footer = () => {
         <>
         <footer>
             <div className="informacoes-footer">
-                <section>            
-                    <nav className="listas-footer">
-                        <h3 className="titulos-footer">Mapa do Site</h3>
+                <section className="section-informacoes">            
+                    <h3 className="titulos-footer">Mapa do Site</h3>
+                    <nav>                        
                         <ul className="listas-footer">
                             <li><Link href="/Home" className="itens-lista-footer">Início</Link></li>
                             <li><Link href="/Produtos" className="itens-lista-footer">Produtos</Link></li>
@@ -16,7 +16,7 @@ const Footer = () => {
                         </ul>
                     </nav>
                 </section>  
-                <section>
+                <section className="section-informacoes">
                     <h3 className="titulos-footer">Informações de Contato</h3>
                     <ul className="listas-footer">
                         <li>Endereço: Av. Jornalista Roberto Marinho, 85 – 14º andar – Cidade Monções, São Paulo – SP, 04575-000 Brasil</li>
@@ -24,9 +24,10 @@ const Footer = () => {
                         <li>E-mail: salesforce@salesforce.com</li>
                     </ul>
                 </section>   
-                <section>                    
+                <section className="section-informacoes">
+                    <h3 className="titulos-footer">Nossas redes sociais</h3>              
                     <nav>
-                        <h3 className="titulos-footer">Nossas redes sociais</h3>
+                       
                         <ul className="redes-sociais">
                             <li>
                                 <Image src="/assets/iconeFacebook.svg" alt="Ícone Facebook" width="30" height="30"/>
