@@ -1,0 +1,15 @@
+body {
+    font-size: 62.5%;
+}
+
+body.light {
+    background-color: white;
+    color: black;
+    background-image: none;
+}
+   
+body.dark {
+    background-color: black;
+    color: white;
+    background-image: none;
+}

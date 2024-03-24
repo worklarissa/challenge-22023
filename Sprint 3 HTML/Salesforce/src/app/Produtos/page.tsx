@@ -1,3 +1,4 @@
+import Script from "next/script";
 import "../../../public/css/produtos.css"
 import Link from "next/link";
 
