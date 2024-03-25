@@ -35,42 +35,6 @@ header{
   text-decoration: underline;
   text-decoration-color: #032D60;
 }
-/* .botoes{
-  display: flex;
-  gap: 30px;
-  align-items: center;
-  justify-content: flex-start;
-  padding-right: 20px;
-  height: 42px;
-}
-.conteudo-botao{
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 0px 5px 0px 5px;
-  height: 42px;
-  font-size: 12.5px;
-  font-weight: 500;
-  color: #0176D3;
-  background-color: transparent;
-  border: none;
-}
-.conteudo-botao-conta{
-  padding: 0px 5px 0px 5px;
-  height: 40px;
-  width: 84px;
-  font-size: 12.5px;
-  font-weight: 500;
-  color: white;
-  background-color: #0176D3 ;
-  border: none ;
-  border-radius: 10px;  
-  box-shadow: none;
-}
-.botoes:focus, .botoes:active{
-  outline: none;
-  border-color: transparent;
-} */
 
 /*ESTILIZAÇÃO FOOTER*/
 
@@ -333,6 +297,8 @@ footer{
 /*Carrossel*/
 .carrossel{
   margin-bottom: 50px;
+  margin-left: 5%;
+
 }
 .carousel .slider-wrapper .slider {
   display: flex;
@@ -365,14 +331,15 @@ footer{
   filter: blur(3px);
   border-radius: 16px;
   background-color: #E0F1F9;
+  margin: 0;
 }
 .slide.selected{  
   filter: none;
   min-height: 670px;
   background-color: #CAEBE9;
+  
 }
 .control-arrow{
-  background-color: palevioletred;
   width: 25%;
 }
 

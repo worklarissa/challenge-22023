@@ -20,7 +20,7 @@ const Carrossel = () => {
        interval={8000}
        transitionTime={500}
        centerMode={true}
-       centerSlidePercentage={50}
+       centerSlidePercentage={40}
        >
             <article className="card-carrossel">
                 <Image src="/assets/ImagemTigre2.svg" alt="Imagem Tigre" width="276" height="249"></Image>    
