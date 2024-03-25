@@ -174,7 +174,7 @@ footer{
   flex-direction: column;
   align-items: center;
   padding: 20px 50px 50px 50px;
-  background-image: url('../../../public/assets/fundoBemVindo.svg');
+  background-image: url('../assets/fundoBemVindo.svg');
   background-repeat: no-repeat;
   background-position: bottom;  
   background-size: 100%;  
@@ -379,7 +379,7 @@ footer{
 /*ESTILIZAÇÃO PRODUTOS*/
 
 .customer360{
-  background-image: url("../../../public/assets/backcustomer.png");
+  background-image: url("../assets/backcustomer.png");
   background-size: 100% 100%;
   background-position: center; 
   background-repeat: no-repeat; 
@@ -446,7 +446,7 @@ h2{
   line-height: 30px;
 }
 .nuvemdedados{
-  background-image: url("../../../public/assets/backdata.png");
+  background-image: url("../assets/backdata.png");
   background-size: 100% 100%;
   background-position: center; 
   background-repeat: no-repeat; 
@@ -459,7 +459,7 @@ h2{
   gap: 30px;
 }
 .marketingcloud{
-  background-image: url("../../../public/assets/backmarketing.png");
+  background-image: url("../assets/backmarketing.png");
   background-size: 100% 100%;
   background-position: center; 
   background-repeat: no-repeat; 

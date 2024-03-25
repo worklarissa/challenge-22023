@@ -8,7 +8,7 @@ const Header = () => {
       <header>
         <div className="logo-menu">
           <section>
-            <Link href="/Home">
+            <Link href="/">
             <Image src="/assets/logoSalesforce.svg" alt="Logo da SalesForce" width="100" height="70"></Image>
             </Link>
           </section>
