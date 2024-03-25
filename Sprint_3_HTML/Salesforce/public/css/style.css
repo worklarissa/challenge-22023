@@ -297,13 +297,13 @@ footer{
 /*Carrossel*/
 .carrossel{
   margin-bottom: 50px;
-  margin-left: 5%;
-
 }
-.carousel .slider-wrapper .slider {
+.slider{
   display: flex;
   align-items: center;
+  gap: 0.5in;
 }
+
 .card-carrossel{
   display: flex;
   flex-direction: column;
@@ -331,13 +331,11 @@ footer{
   filter: blur(3px);
   border-radius: 16px;
   background-color: #E0F1F9;
-  margin: 0;
 }
 .slide.selected{  
   filter: none;
   min-height: 670px;
-  background-color: #CAEBE9;
-  
+  background-color: #CAEBE9;  
 }
 .control-arrow{
   width: 25%;
