@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Footer from './Footer/page';
 import '../../public/css/style.css';
 import Header from './Header/page';
+import Script from 'next/script';
 
 
 export const metadata: Metadata = {
@@ -17,7 +18,8 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any"/>
+        <link rel="shortcut icon" href="/favicon.co" type="image/x-icon" />
+        
       </head>
       <body>
         <main>
@@ -25,6 +27,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </main>
+        <Script src='../../../javascript/chatbot.js'/>
       </body>
     </html>
   );
