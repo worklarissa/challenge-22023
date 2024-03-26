@@ -1,50 +1,59 @@
 import Link from "next/link"
+import Image  from "next/image";
+
 
 const Forms = () => {
     return (
         <>
-            <div>
-                <h1>Como podemos ajudar você?</h1>
-                <p>
-                    Se tiver qualquer dúvida sobre nossos produtos, preços ou como começar a usar, estamos aqui para isso!
-                    Nossos especialistas adorariam orientá-lo no caminho certo para o sucesso.
-                </p>
-                <p>
-                    Quer conversar? É só preencher o formulário aqui ao lado ou, se preferir, você pode ligar para
-                    0800 891 1887!
-                </p>
-                <span>Já é cliente? Visite o link abaixo:</span>
-                <Link href=".\">Faturamento e Suporte Técnico</Link>
-            </div>
-            <div>
-                 <form >
-                    <label>
-                    Nome
-                    <input type="text" name="nome"/>
-                    </label>
-                    <label>
-                    Email Corporativo
-                    <input type="email" name="email"/>
-                    </label>
-                    <label>
-                    Telefone
-                    <input type="text" name="telefone"/>
-                    </label>
-                    <label>
-                    Empresa
-                    <input type="text" name="empresa"/>
-                    </label><label>
-                    Pais/Região
-                    <input type="text" name="pais"/>
-                    </label>
-                    <label>
-                    Perguntas/Comentários
-                    <input type="text" name="perguntas"/>
-                    </label>
-                </form>
+            <div className="total-forms">
+                <div className="form-text">
+                    <h1 className = "form-titulo">Como podemos ajudar você?</h1>
+                    <p className="form-par">
+                        Se tiver qualquer dúvida sobre nossos produtos, preços ou como começar a usar, estamos aqui para isso!
+                        Nossos especialistas adorariam orientá-lo no caminho certo para o sucesso.
+                    </p>
+                    <p className = "form-par">
+                        Quer conversar? É só preencher o formulário aqui ao lado ou, se preferir, você pode ligar para
+                        0800 891 1887!
+                    </p>
+                    <span className = "form-par">Já é cliente? Visite o link abaixo:</span>
+                    <Link className = "form-link" href=".\">Faturamento e Suporte Técnico</Link>
+                </div>
+                <div className="form-forms">
+                    <form >
+                        <label className="form-pequeno">
+                        Nome
+                        <input type="text" name="name"/>
+                        </label>
+                        <label className="form-pequeno">
+                        Email Corporativo
+                        <input type="email" name="email"/>
+                        </label>
+                        <label className="form-pequeno">
+                        Telefone
+                        <input type="text" name="telefone"/>
+                        </label>
+                        <label className="form-pequeno">
+                        Empresa
+                        <input type="text" name="empresa"/>
+                        </label>
+                        <label className="form-pequeno">
+                        Pais/Região
+                        <input type="text" name="pais"/>
+                        </label>
+                        <label className="form-question">
+                        Perguntas/Comentários
+                        <input type="text" name="perguntas"/>
+                        </label>
+                    </form>
 
+                </div>
+                <div>
+                    <Image src="public\assets\contatoFinalPagina.svg" alt="Imagem animada de arvores e um esquilo" 
+                    className="contato-image-final" width={100} height={200}/>
+                </div>
             </div>
-        
+           
         </>
     )
 
