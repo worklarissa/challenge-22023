@@ -24,7 +24,9 @@ const Produtos = () => {
                         </article>
                     </section>
                     <section className="corpobotao">
-                        <button className="textobotao">Entre em contato para saber mais!</button>
+                        <Link href="/Contato">
+                            <button className="textobotao">Entre em contato para saber mais!</button>
+                        </Link>
                     </section>
                 </div>
 
@@ -45,7 +47,9 @@ const Produtos = () => {
                     </section>
 
                     <section className="corpobotao">
-                        <button className="textobotao">Entre em contato para saber mais!</button>
+                        <Link href="/Contato">
+                            <button className="textobotao">Entre em contato para saber mais!</button>
+                        </Link>
                     </section>
                 </div>
 
@@ -66,7 +70,7 @@ const Produtos = () => {
                     </section>
 
                     <section className="corpobotao">
-                        <Link href="/Produtos">
+                        <Link href="/Contato">
                             <button className="textobotao">Entre em contato para saber mais!</button>
                         </Link>
                     </section>
