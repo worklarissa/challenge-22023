@@ -19,7 +19,6 @@ export default function RootLayout({
     <html lang="pt-BR">
       <head>
         <link rel="shortcut icon" href="/favicon.co" type="image/x-icon" />
-        
       </head>
       <body>
         <main>
