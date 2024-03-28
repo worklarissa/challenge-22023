@@ -19,6 +19,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <head>
         <link rel="shortcut icon" href="/favicon.co" type="image/x-icon" />
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
       </head>
       <body>
         <main>
@@ -27,6 +28,7 @@ export default function RootLayout({
           <Footer />
         </main>
         <Script src='../../../javascript/chatbot.js'/>
+        <Script src='../../../javascript/clicks.js'/>
       </body>
     </html>
   );
