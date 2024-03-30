@@ -9,7 +9,7 @@ const Footer = () => {
                     <h3 className="titulos-footer">Mapa do Site</h3>
                     <nav>                        
                         <ul className="listas-footer">
-                            <li><Link href="/Home" className="itens-lista-footer">Início</Link></li>
+                            <li><Link href="/" className="itens-lista-footer">Início</Link></li>
                             <li><Link href="/Produtos" className="itens-lista-footer">Produtos</Link></li>
                             <li><Link href="/Contato" className="itens-lista-footer">Contato</Link></li>
                             <li><Link href="/Equipe" className="itens-lista-footer">Equipe</Link></li>
