@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import './header.css';
 import logo from "/assets/logoSalesforce.svg"
 
 const Header = () => {

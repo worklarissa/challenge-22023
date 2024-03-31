@@ -1,5 +1,6 @@
 import Script from "next/script";
 import Link from "next/link";
+import './produtos.css';
 
 const Produtos = () => {
     return(

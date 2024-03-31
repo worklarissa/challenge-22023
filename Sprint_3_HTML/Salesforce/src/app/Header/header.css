@@ -1,0 +1,32 @@
+/*ESTILIZAÇÃO HEADER*/
+
+header{
+    width: 100%;
+    background-color: #EAF5FE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+  }
+  .logo-menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+  .menu{
+    list-style-type: none;
+    display: flex;
+    gap: 23px;
+  }
+  .link{  
+    color: #032D60;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .link:hover{
+    text-decoration: underline;
+    text-decoration-color: #032D60;
+  }
