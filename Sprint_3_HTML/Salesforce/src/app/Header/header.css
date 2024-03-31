@@ -57,6 +57,10 @@
     display: none;
   }
 
+  .teste{
+    position: relative;
+  }
+
   .mobile{
     cursor: pointer;
     display: flex;
@@ -77,11 +81,13 @@
 
   .menumobile{
     display: none;
+    position: fixed;
     padding: 22px 20px 22px 19px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #032D60;
+    z-index: 1000;
   }
 
   .listamobile{
@@ -130,6 +136,10 @@
     display: none;
   }
 
+  .teste{
+    position: relative;
+  }
+
   .mobile{
     cursor: pointer;
     display: flex;
@@ -147,14 +157,16 @@
     font-weight: 700;
     line-height: normal;
   }
-  
+
   .menumobile{
     display: none;
+    position: fixed;
     padding: 22px 20px 22px 19px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #032D60;
+    z-index: 1000;
   }
 
   .listamobile{
@@ -181,4 +193,5 @@
     text-decoration: underline;
     text-decoration-color: #FFFFFF;
   }
+
 }

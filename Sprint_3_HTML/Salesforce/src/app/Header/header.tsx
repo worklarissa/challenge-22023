@@ -31,20 +31,21 @@ const Header = () => {
                 </ul>
             </nav>
           </section>
-          <section className="mobile" onClick={alternarMenuMobile}>
-            <Image src="/assets/iconemenu.png" width="27" height="18" id="menuIcon"></Image>
-            <p>Menu</p>
-          </section>
-          <section>
-            <nav className="menumobile" style={{display: menuMobileVisivel ? "block" : "none"}}>
-              <ul className="listamobile">
-                <li><Link href="/Produtos" className="link">Produtos</Link></li>
-                <li><Link href="/Contato" className="link">Contato</Link></li>
-                <li><Link href="/Equipe" className="link">Equipe</Link></li>
-              </ul>
-            </nav>
-          </section>
-          <Script src='/javascript/menumobile.js'/>
+          <div className="teste">
+            <section className="mobile" onClick={alternarMenuMobile}>
+              <Image src="/assets/iconemenu.png" width="27" height="18" id="menuIcon"></Image>
+              <p>Menu</p>
+            </section>
+            <section>
+              <nav className="menumobile" style={{display: menuMobileVisivel ? "block" : "none"}}>
+                  <ul className="listamobile">
+                    <li><Link href="/Produtos" className="link">Produtos</Link></li>
+                    <li><Link href="/Contato" className="link">Contato</Link></li>
+                    <li><Link href="/Equipe" className="link">Equipe</Link></li>
+                  </ul>
+              </nav>
+            </section>
+          </div>
           
         </div>
         {/* <div className="botoes">
