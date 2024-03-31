@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import Footer from './Footer/page';
+import Footer from './Footer/footer';
 import '../../public/css/style.css';
-import Header from './Header/page';
+import Header from './Header/header';
 import Script from 'next/script';
 
 
@@ -26,7 +26,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </main>
-        <Script src='../../../javascript/chatbot.js'/>
+        <Script src='/javascript/chatbot.js'/>
       </body>
     </html>
   );
