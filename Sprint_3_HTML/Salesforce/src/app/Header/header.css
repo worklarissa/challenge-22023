@@ -1,6 +1,6 @@
 /*ESTILIZAÇÃO HEADER*/
-
-header{
+@media screen and (min-width: 1024px) {
+  header{
     width: 100%;
     background-color: #EAF5FE;
     display: flex;
@@ -24,9 +24,76 @@ header{
     color: #032D60;
     text-decoration: none;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
   }
   .link:hover{
     text-decoration: underline;
     text-decoration-color: #032D60;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header{
+    width: 100%;
+    background-color: #EAF5FE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+  }
+  .logo-menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+  .menu{
+    list-style-type: none;
+    display: flex;
+    gap: 23px;
+  }
+  .link{  
+    color: #032D60;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+  }
+  .link:hover{
+    text-decoration: underline;
+    text-decoration-color: #032D60;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header{
+    width: 100%;
+    background-color: #EAF5FE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+  }
+  .logo-menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+  .menu{
+    list-style-type: none;
+    display: flex;
+    gap: 23px;
+  }
+  .link{  
+    color: #032D60;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .link:hover{
+    text-decoration: underline;
+    text-decoration-color: #032D60;
+  }
+}
