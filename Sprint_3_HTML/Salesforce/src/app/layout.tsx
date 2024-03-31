@@ -26,7 +26,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </main>
-        <Script src='../../../javascript/chatbot.js'/>
+        <Script src='/javascript/chatbot.js'/>
       </body>
     </html>
   );

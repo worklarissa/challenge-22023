@@ -6,7 +6,7 @@ const Footer = () => {
         <>
         <footer>
             <div className="informacoes-footer">
-                <section className="section-informacoes mapasite">            
+                <section className="section-informacoes">            
                     <h3 className="titulos-footer">Mapa do Site</h3>
                     <nav>                        
                         <ul className="listas-footer">
@@ -17,11 +17,11 @@ const Footer = () => {
                         </ul>
                     </nav>
                 </section>  
-                <section className="section-informacoes contato">
+                <section className="section-informacoes">
                     <h3 className="titulos-footer">Informações de Contato</h3>
                     <ul className="listas-footer">
                         <li>Endereço: Av. Jornalista Roberto Marinho, 85 – 14º andar – Cidade Monções, São Paulo – SP, 04575-000 Brasil</li>
-                        <li className="telefone">Telefone: 0800 891 1887</li>
+                        <li>Telefone: 0800 891 1887</li>
                         <li>E-mail: salesforce@salesforce.com</li>
                     </ul>
                 </section>   
