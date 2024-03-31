@@ -1,0 +1,133 @@
+/*ESTILIZAÇÃO CONTATO*/
+
+.total-forms{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-image: url('../../../public/assets/backgroundForms.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;  
+    background-size: 100% ;
+    /*flex-wrap:wrap
+    */
+ }
+
+ .form-text{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px 30px 15px 10px;
+    margin: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10.50px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+ }
+
+ .form-titulo{
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: lighter;
+  color: #032D60;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+ .form-par{
+  display:flex;
+  align-items: flex-start;
+  word-wrap: break-word;
+  font-size: 20px;
+  font-weight: 400;
+ }
+
+ form{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+ }
+
+ .form-pequeno{
+    padding: 10px;
+    position: relative;
+    display: block;
+ }
+
+.form-pequeno input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+.form-pequeno label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #8d8d8d;
+    background: #ffffff;
+    pointer-events: none;
+    transition: 300ms;
+    transform: translate(-50%, -50%);
+}
+
+.form-forms{
+    background-color: #FFFFFF;
+    width: 454px;
+    height: 600px;
+    padding: 10px 20px;
+}
+
+.form-question{
+    font-size: 18px;
+    outline: none;
+}
+
+.form-question input {
+    width: 394px;
+    height: 83px;
+    padding: 10px;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+.contato-image-final{
+    width: 100px;
+    margin-bottom: -100%;
+    z-index: -1;
+}
+
+.corpobotao{
+    display: flex ;
+    justify-content: center;
+    padding: 20px 0 ;
+}
+.textobotao{
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; 
+  display: flex;
+  padding: 10px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 2px solid #0B5CAB;
+  background: #0B5CAB;
+}
