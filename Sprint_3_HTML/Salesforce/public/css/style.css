@@ -200,6 +200,7 @@
   display: flex;
   align-items: center;
   gap: 0.2in;
+  
 }
 .section-carrossel{
   width: 100%;
@@ -255,13 +256,25 @@
   .secao3{
     padding: 0 0.4in ;
   }
-
-
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+.bem-vindo{
+  display: flex;
+  flex-direction: column;  
+}
+.apresentacao h1{
+  font-size: 48px;
+}
+.section-cards{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.secao2{
+  padding: 0 0.1in;
+}
+.card-carrossel{
+  
 }
 
-
-
-
-
-
-
+}
