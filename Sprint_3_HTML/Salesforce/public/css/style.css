@@ -14,6 +14,7 @@
 }
 .titulo-sessao{
   text-align: center;
+  width: 100%;
   color: #032D60;
   font-size: 40px;
   font-weight: 400;
@@ -46,6 +47,8 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
+  padding: 20px 20px 20px 50px;
+  
 }
 .apresentacao h1{
   text-align: center;
@@ -61,9 +64,11 @@
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 15px;
+  max-width: 800px;
 }
 .imagem-bem-vindo{
   width: 50%;
+  max-width: 408px;
   height: auto;
   background-color: re;
 }
@@ -95,11 +100,12 @@
   align-items: center;
   gap: 70px;
 }
+
 .section-cards{
   display: flex;
   justify-content: space-between;
   gap: 5%;
-  margin: 0 5%;
+  padding: 0 1in ;
 }
 .card-produtos{
   display: flex;
@@ -177,7 +183,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 1in ;
 }
 .botoes-depoimentos{
   display: flex;
@@ -188,11 +194,15 @@
 /*Carrossel*/
 .carrossel{
   margin-bottom: 50px;
+  
 }
 .slider{
   display: flex;
   align-items: center;
-  gap: 0.5in;
+  gap: 0.2in;
+}
+.section-carrossel{
+  width: 100%;
 }
 
 .card-carrossel{
@@ -231,7 +241,23 @@
 .control-arrow{
   width: 25%;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-home{
+    gap: 40px;
+  }
+  .secao2{
+    gap: 30px;
+  }
+  .section-cards{
+    gap: 2%;
+    padding: 0 0.4in ;
+  }
+  .secao3{
+    padding: 0 0.4in ;
+  }
 
+
+}
 
 
 
