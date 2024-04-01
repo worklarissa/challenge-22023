@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 10%;
     border-bottom: 1px solid rgba(116, 116, 116, 0.4);
   }
   .section-informacoes{
@@ -83,7 +82,7 @@
   .informacoes-footer{
     padding: 20px 10px;
     width: 100%;
-    gap: auto;
+    gap: 10px;
   }
   .section-informacoes{
     width: 100%;
