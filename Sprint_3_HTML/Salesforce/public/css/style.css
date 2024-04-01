@@ -273,8 +273,32 @@
 .secao2{
   padding: 0 0.1in;
 }
+.slide.selected{  
+  min-width: 70%; 
+}
+.carrossel{
+  margin-bottom: 50px; 
+}
+.section-carrossel{
+  width: 100%;
+}
 .card-carrossel{
-  
+  padding: 0;
+}
+.depoimento-carrossel{
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0.1in 0;
+}
+.paragrafo-carrossel{
+  font-size: 20px;
+  line-height: 22px;
+}
+.control-arrow{
+  width: 25%;
+}
+.slide .previous {
+  display: none;
 }
 
 }
