@@ -36,7 +36,8 @@
 .form-forms{
    background-color: #FFFFFF;
    border-radius: 30px;
-   min-width: 454px;
+   padding-right: 20px;
+   width: auto;
    height: auto;
 }
 form{
@@ -126,4 +127,14 @@ form{
 
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+   form{
+      min-width: 0;
+   }
+
+   .total-forms{
+      flex-direction: column; 
+      width: auto;     
+      
+   }
+}
