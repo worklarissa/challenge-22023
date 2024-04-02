@@ -192,6 +192,10 @@
   margin: 20px;
 }
 
+.section-carrossel{
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .main-home{
     gap: 40px;
@@ -213,6 +217,9 @@
 }
 .secao2{
   padding: 0 0.1in;
+}
+.secao3{
+  padding: 0;
 }
 
 }

@@ -40,10 +40,6 @@
   align-items: center;
 }
 
-.section-carrossel{
-  width: 100%;
-}
-
 .carousel.carousel-slider {
   padding-top: 70px;
 }
@@ -58,14 +54,14 @@
 }
 .depoimento-carrossel{
   color: #032D60;
-  font-size: 20px;
+  font-size: large;
   font-weight: 400;
   line-height: 25px;
   text-align: left;
 }
 .paragrafo-carrossel{
   color: #032D60;
-  font-size: 23px;
+  font-size: x-large;
   font-weight: 400;
   line-height: 25px;
   text-align: left;
@@ -83,51 +79,33 @@
 
 .slide.selected{  
   filter: none;
-  min-height: 670px;
+  min-height: 690px;
   background-color: #CAEBE9;  
-  margin: 0px 10px !important;
+  border: 10px solid white;
+  border-radius: 26px;
 }
 .control-arrow{
-  width: 25%;
+  top: 115px !important;
+  height: 600px;
+  width: 27.5%;  
+  border-radius: 16px;
+  background-color: #ffffff40 !important;  
 }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {  
-  .section-cards{
-    gap: 2%;
-    padding: 0 0.4in ;
-  }  
+  .depoimento-carrossel{
+    font-size: medium;    
+  }
+  .paragrafo-carrossel{
+    font-size: large;    
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
-.section-cards{
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-.slide.selected{  
-  min-width: 70%; 
-}
-.carrossel{
-  margin-bottom: 50px; 
-}
-.section-carrossel{
-  width: 100%;
-}
-.card-carrossel{
-  padding: 0;
-}
-.depoimento-carrossel{
-  font-size: 18px;
-  line-height: 22px;
-  padding: 0.1in 0;
-}
-.paragrafo-carrossel{
-  font-size: 20px;
-  line-height: 22px;
-}
-.control-arrow{
-  width: 25%;
-}
-.slide .previous {
-  display: none;
-}
+  .depoimento-carrossel{
+    font-size: small;    
+  }
+  .paragrafo-carrossel{
+    font-size: medium;    
+  }
 
 }
