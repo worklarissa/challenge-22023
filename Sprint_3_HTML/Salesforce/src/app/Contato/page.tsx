@@ -22,27 +22,27 @@ const Contato = () => {
                 <div className="form-forms">
                     <form >
                         <label className="form-pequeno">
-                        Nome
+                        <p>Nome</p>
                         <input type="text" name="name"/>
                         </label>
                         <label className="form-pequeno">
-                        Email Corporativo
+                        <p>Email Corporativo</p>
                         <input type="email" name="email"/>
                         </label>
                         <label className="form-pequeno">
-                        Telefone
+                        <p>Telefone</p>
                         <input type="text" name="telefone"/>
                         </label>
                         <label className="form-pequeno">
-                        Empresa
+                        <p>Empresa</p>
                         <input type="text" name="empresa"/>
                         </label>
                         <label className="form-pequeno">
-                        Pais/Região
+                        <p>Pais/Região</p>
                         <input type="text" name="pais"/>
                         </label>
                         <label className="form-question">
-                        Perguntas/Comentários
+                        <p>Perguntas/Comentários</p>
                         <input type="text" name="perguntas"/>
                         </label>
                         <section className="corpobotao">

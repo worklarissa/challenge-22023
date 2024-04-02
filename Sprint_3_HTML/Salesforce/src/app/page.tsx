@@ -60,13 +60,7 @@ const Home = () => {
                 </button>
             </div>
             <div className="secao3">
-                <h2 className="titulo-sessao">Depoimentos de Clientes</h2>
-                <section className="botoes-depoimentos">
-                        <Image src="/assets/depoimentoTigre.svg" alt="Logo Tigre" width="60" height="60"></Image>                    
-                        <Image src="/assets/depoimentoVipal.svg" alt="Logo Vipal" width="60" height="60"></Image>
-                        <Image src="/assets/depoimentoSamup.svg" alt="Logo Samup" width="60" height="60"></Image>                   
-                        <Image src="/assets/depoimentoGympass.svg" alt="Logo Gympass" width="60" height="60"></Image>                   
-                </section>
+                <h2 className="titulo-sessao">Depoimentos de Clientes</h2>                
                 <section className="section-carrossel">
                     <Carrossel/>
                 </section>
