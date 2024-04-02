@@ -1,3 +1,7 @@
+//Larissa Araujo Gama Alvarenga -RM96496
+//Larissa Lopes Oliveira -RM552628
+//Luna Faustino Lima -RM552473
+
 import type { Metadata } from 'next';
 import Footer from './Footer/footer';
 import '../../public/css/style.css';

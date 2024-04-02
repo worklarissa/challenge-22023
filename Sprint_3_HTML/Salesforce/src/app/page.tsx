@@ -1,3 +1,7 @@
+//Larissa Araujo Gama Alvarenga -RM96496
+//Larissa Lopes Oliveira -RM552628
+//Luna Faustino Lima -RM552473
+
 import Image from "next/image";
 import Link from "next/link";
 import Carrossel from "./Carrossel/carrossel";
