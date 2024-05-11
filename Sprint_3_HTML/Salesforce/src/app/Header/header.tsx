@@ -33,7 +33,7 @@ const Header = () => {
           </section>
           <div className="teste">
             <section className="mobile" onClick={alternarMenuMobile}>
-              <Image src="/assets/iconemenu.png" width="27" height="18" id="menuIcon"></Image>
+              <Image src="/assets/iconemenu.png" alt="Menu Sandwich" width="27" height="18" id="menuIcon"></Image>
               <p>Menu</p>
             </section>
             <section>
