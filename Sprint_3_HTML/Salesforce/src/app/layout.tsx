@@ -3,6 +3,7 @@ import Footer from './Footer/footer';
 import '../../public/css/style.css';
 import Header from './Header/header';
 import Script from 'next/script';
+import Providers from './providers';
 
 
 export const metadata: Metadata = {
@@ -23,7 +24,7 @@ export default function RootLayout({
       <body>
         <main>
           <Header />
-          {children}
+          <Providers>{children}</Providers>
           <Footer />
         </main>
         <Script src='/javascript/chatbot.js'/>
