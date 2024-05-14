@@ -207,7 +207,7 @@
     padding: 0 0.4in ;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 .bem-vindo{
   display: flex;
   flex-direction: column;  

@@ -53,7 +53,7 @@
   border-radius: 16px;
 }
 .depoimento-carrossel{
-  color: #032D60;
+  color: c;
   font-size: large;
   font-weight: 400;
   line-height: 25px;
@@ -89,7 +89,18 @@
   height: 600px;
   width: 27.5%;  
   border-radius: 16px;
-  background-color: #ffffff40 !important;  
+  
+  background-color: #caebe9c9 !important;  
+}
+.control-prev.control-arrow:before{
+  border-right: 38px solid #032D60 !important;
+  border-top: 38px solid transparent !important;
+  border-bottom: 38px solid transparent !important;
+}
+.control-next.control-arrow:before{
+  border-left: 38px solid #032D60 !important;
+  border-top: 38px solid transparent !important;
+  border-bottom: 38px solid transparent !important;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {  
