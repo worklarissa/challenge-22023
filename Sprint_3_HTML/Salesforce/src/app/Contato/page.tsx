@@ -22,7 +22,7 @@ const Contato = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch("http://localhost:8080/Formulario/api/formulario", {
+            const response = await fetch("http://localhost:8080/Formulario/formulario", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

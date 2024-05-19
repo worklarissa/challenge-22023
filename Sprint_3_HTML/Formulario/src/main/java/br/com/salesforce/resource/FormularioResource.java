@@ -1,39 +1,40 @@
 package br.com.salesforce.resource;
 
+import java.sql.SQLException;
+import java.util.ArrayList;
+
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import javax.ws.rs.core.UriBuilder;
+import javax.ws.rs.core.UriInfo;
 
 import br.com.salesforce.beans.Formulario;
-import br.com.salesforce.dao.FormularioDao;
+import br.com.salesforce.bo.FormularioBo;
 
 @Path("/formulario")
 public class FormularioResource {
     
-    private FormularioDao formularioDao = new FormularioDao();
-    
-    @POST
-    @Consumes(MediaType.APPLICATION_JSON)
-    public Response inserir(Formulario formulario) {
-        try {
-            formularioDao.inserir(formulario);
-            return Response.status(Response.Status.CREATED).entity("Formulário inserido com sucesso!").build();
-        } catch (Exception e) {
-            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Erro ao inserir o formulário: " + e.getMessage()).build();
-        }
-    }
-    
-    @GET
-    @Produces(MediaType.APPLICATION_JSON)
-    public Response listar() {
-        try {
-            return Response.status(Response.Status.OK).entity(formularioDao.listar()).build();
-        } catch (Exception e) {
-            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Erro ao buscar os formulários: " + e.getMessage()).build();
-        }
-    }
+	private FormularioBo formularioBo = new FormularioBo();
+
+	@POST
+	@Consumes(javax.ws.rs.core.MediaType.APPLICATION_JSON)
+	public Response inserirRs(Formulario formulario, @Context UriInfo uriInfo) throws ClassNotFoundException, SQLException {
+		formularioBo.inserirBo(formulario);
+		UriBuilder builder = uriInfo.getAbsolutePathBuilder();
+		builder.path(formulario.getNome());
+
+		return Response.created(builder.build()).build();
+	}
+
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public ArrayList<Formulario> visualizarRs() throws ClassNotFoundException, SQLException {
+		return (ArrayList<Formulario>) formularioBo.visualizarBo();
+	}
 }
