@@ -1,3 +1,10 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
 /*ESTILIZAÇÃO PRODUTOS*/
 @media screen and (min-width: 1024px) {
   .pagina{
@@ -59,7 +66,6 @@
     align-self: stretch;
     color: #032D60;
     text-align: center;
-    font-family: "Salesforce Sans";
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -70,7 +76,6 @@
     max-width: 800px;
     align-self: stretch;
     color: #181818;
-    font-family: Roboto;
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
@@ -116,7 +121,6 @@
     cursor: pointer;
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -215,7 +219,6 @@
     align-self: stretch;
     color: #032D60;
     text-align: center;
-    font-family: "Salesforce Sans";
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -271,7 +274,6 @@
     cursor: pointer;
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -374,7 +376,6 @@
     align-self: stretch;
     color: #032D60;
     text-align: center;
-    font-family: "Salesforce Sans";
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -383,7 +384,6 @@
   }
   .textoartigo{
     color: #181818;
-    font-family: Roboto;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -430,7 +430,6 @@
     cursor: pointer;
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
