@@ -44,7 +44,7 @@ const Contato = () => {
                 console.error("Erro ao enviar dados:", response.statusText);
             }
         } catch (error) {
-            console.error("Erro ao enviar dados:", error.message);
+            console.error("Erro ao enviar dados:");
         }
     };
 
