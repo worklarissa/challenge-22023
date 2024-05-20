@@ -4,7 +4,6 @@
 
 import type { Metadata } from 'next';
 import Footer from './Footer/footer';
-import '../../public/css/style.css';
 import Header from './Header/header';
 import Script from 'next/script';
 import Providers from './providers';

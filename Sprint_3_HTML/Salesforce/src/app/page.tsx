@@ -5,6 +5,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Carrossel from "./Carrossel/carrossel";
+import "../../public/css/style.css"
 
 
 const Home = () => {
