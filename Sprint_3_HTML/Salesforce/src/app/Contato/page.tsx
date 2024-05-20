@@ -71,23 +71,28 @@ const Contato = () => {
                 <div className="form-forms">
                     <form onSubmit={handleSubmit}>
                         <label className="form-pequeno">
-                            <p>Nome</p>
+                            <span>Nome</span>
+                            <span className="asterisco">*</span>
                             <input type="text" name="nome" value={formValues.nome} onChange={handleChange} required />
                         </label>
                         <label className="form-pequeno">
-                            <p>Email Corporativo</p>
+                            <span>Email Corporativo</span>
+                            <span className="asterisco">*</span>
                             <input type="email" name="email" value={formValues.email} onChange={handleChange} required />
                         </label>
                         <label className="form-pequeno">
-                            <p>Telefone</p>
+                            <span>Telefone</span>
+                            <span className="asterisco">*</span>
                             <input type="text" name="telefone" value={formValues.telefone} onChange={handleChange} required />
                         </label>
                         <label className="form-pequeno">
-                            <p>Empresa</p>
+                            <span>Empresa</span>
+                            <span className="asterisco">*</span>
                             <input type="text" name="empresa" value={formValues.empresa} onChange={handleChange} required />
                         </label>
                         <label className="form-pequeno">
-                            <p>Pais/Região</p>
+                            <span>Pais/Região</span>
+                            <span className="asterisco">*</span>
                             <input type="text" name="regiao" value={formValues.regiao} onChange={handleChange} required />
                         </label>
                         <label className="form-question">
